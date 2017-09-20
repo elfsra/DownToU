@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Paylasim"
+        android:icon="@drawable/group_24"
+        android:title="Paylaşım" />
+
+    <item
+        android:id="@+id/navigation_Chat"
+        android:icon="@drawable/chat_24"
+        android:title="Chat" />
+
+    <item
+        android:id="@+id/navigation_Egitim"
+        android:icon="@drawable/baby_abc_cubes_24"
+        android:title="Eğitim" />
+    <item
+        android:id="@+id/navigation_Profil"
+        android:icon="@drawable/user_24"
+        android:title="Profil" />
+</menu>

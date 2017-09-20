@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bulutt">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/angel"
+        app:civ_border_color="#999999"
+        app:civ_border_width="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ad"
+            android:textColorHint="#FFFAF0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ad" />
+
+        <EditText
+            android:id="@+id/soyad"
+            android:textColorHint="#FFFAF0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Soyad"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email"
+            android:textColorHint="#FFFAF0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="E-Posta"/>
+
+        <EditText
+            android:id="@+id/sifre"
+            android:textColorHint="#FFFAF0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Şifre"
+            android:inputType="numberPassword"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tarihSec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF4500"
+            android:text="D.Tarihi"
+            android:textAllCaps="false"
+            android:textColor="#FFFAF0" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/dtarih"
+            android:textSize="20dp"/>
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:visibility="gone">
+        <!--android:id="@+id/dtarih"-->
+        </DatePicker>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:background="#FF4500"
+            android:textColor="#FFFAF0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Üyelik Türü"
+            android:textAllCaps="false"
+            android:onClick="false"
+            />
+       <ExpandableListView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/explv1"></ExpandableListView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/kaydol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="300dp"
+            android:background="#FF4500"
+            android:text="KAYDOL"
+            android:textColor="#FFFAF0" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/kayit"
+    tools:context="com.tatlicilar.downtoup.GoogleKayitOl">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <ImageView
+            android:id="@+id/resim"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_weight="7"
+    android:orientation="vertical"
+    android:weightSum="7">
+    <EditText
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:hint="Ad"
+        android:textColorHint="#FFFAF0"
+        android:layout_below="@+id/resim"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/soyad"
+        android:textColorHint="#FFFAF0"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:hint="Soyad"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.57">
+        <EditText
+            android:id="@+id/dtarih"
+            android:hint="Doğum Tarihi"
+            android:textColorHint="#FFFAF0"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/tarihSec"
+            android:text="Tarih Seç"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#FF4500"
+            android:textColor="#FFFAF0"
+            android:layout_above="@+id/explv1"
+            android:layout_toRightOf="@+id/dtarih"
+            />
+
+        <Button
+            android:id="@+id/kaydol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KAYDOL"
+            android:background="#FF4500"
+            android:textColor="#FFFAF0"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <ExpandableListView
+            android:layout_width="140dp"
+            android:layout_height="160dp"
+            android:id="@+id/explv1"
+            android:layout_below="@+id/dtarih"
+            android:layout_toStartOf="@+id/kaydol" />
+    </RelativeLayout>
+</LinearLayout>

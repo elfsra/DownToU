@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/coverImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/llLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="14dp"
+        android:layout_toRightOf="@+id/coverImg"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/egitimIsmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eğitim İsmi"
+            android:textColor="#000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/egitmenIsmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Egitmen ismi"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/icerik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İçerik"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>

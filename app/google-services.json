@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "766654522788",
+    "firebase_url": "https://downtoup-a09e8.firebaseio.com",
+    "project_id": "downtoup-a09e8",
+    "storage_bucket": "downtoup-a09e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766654522788:android:8d8a34284e775e57",
+        "android_client_info": {
+          "package_name": "com.tatlicilar.downtoup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766654522788-p8s91s40o79jut93sfgb0sgn11ijpunv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tatlicilar.downtoup",
+            "certificate_hash": "2630ba80beb06c9895f2f4f83b3726b545f7a989"
+          }
+        },
+        {
+          "client_id": "766654522788-gvu6r6upqljpbc4dpgsak65q5kr489bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu00d6qNUUyFQ0UwwBvnqB8PmCKVIYMtk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766654522788-gvu6r6upqljpbc4dpgsak65q5kr489bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
